@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atharv Mahesh Korde - Digital Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #004080;
+      border-bottom: 2px solid #004080;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 5px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #004080;
+      color: white;
+      margin-top: 20px;
+    }
+
+    .profile-pic {
+      display: block;
+      margin: 0 auto 20px;
+      width: 150px;
+      height: 200px;
+      object-fit: cover;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .certificate-content {
+      display: none;
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+    }
+
+    .certificate-title {
+      cursor: pointer;
+      color: #004080;
+      font-size: 18px;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Atharv Mahesh Korde</h1>
+    <p>B.Tech Student | MIT AOE, Alandi, Pune (2024 - 2028)</p>
+  </header>
+
+  <div class="container">
+    <img src="ath.jpg" alt="Atharv Mahesh Korde" class="profile-pic">
+
+    <h2>About Me</h2>
+    <p>Hello! I am Atharv Mahesh Korde, 18 years old, currently pursuing B.Tech in Computer Engineering (Software) at MIT Academy of Engineering, Alandi, Pune. I am passionate about programming and exploring new technologies.</p>
+
+    <h2>Personal Values</h2>
+    <ul>
+      <li>Integrity and honesty in all endeavors</li>
+      <li>Continuous learning and growth</li>
+      <li>Collaboration and teamwork</li>
+      <li>Respect and empathy towards others</li>
+    </ul>
+
+    <h2>Personal Goals & History</h2>
+    <ul>
+      <li>Short-Term: Master web development, data structures, and Python</li>
+      <li>Long-Term: Become a full-stack developer and contribute to impactful projects</li>
+    </ul>
+
+    <h2>Accomplishments</h2>
+    <ul>
+      <li>Completed Web Development Basics course</li>
+      <li>Secured 82% in HSC and 77% in SSC</li>
+    </ul>
+
+    <h2>Projects & Assignments</h2>
+    <ul>
+      <li>Created a digital portfolio using HTML and CSS</li>
+      <li>Physics Lab Report on Rectangle Perimeter Calculation using dataset analysis</li>
+      <li>Sequential Search presentation with live demo and Python program</li>
+    </ul>
+
+    <h2>Skills & Attributes</h2>
+    <ul>
+      <li>Programming: C, Python (basic)</li>
+      <li>Web: HTML, CSS</li>
+      <li>Soft Skills: Leadership, Communication, Problem Solving</li>
+    </ul>
+
+    <h2>Education & Training</h2>
+    <ul>
+      <li>10th (SSC): Smt. D. G. Agrawal Memorial English Medium School - 77%</li>
+      <li>12th (HSC): Sanjay Gandhi Higher and Secondary School - 82%</li>
+      <li>B.Tech in Computer Engineering (2024 - 2028): MIT AOE, Pune</li>
+      <li>Web Development Basics Certification (HTML, CSS)</li>
+    </ul>
+
+    <h2>Testimonials & Recommendations</h2>
+    <ul>
+      <li>"Atharv is a curious learner and shows great enthusiasm for solving problems." – Physics Lab Faculty</li>
+      <li>"He takes initiative in team projects and demonstrates excellent communication skills." – Group Project Peer</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: 202401100050@mitaoe.ac.in</li>
+    </ul>
+
+    <h2 class="certificate-title" onclick="toggleCertificate()">Certificate: Web Development Basics</h2>
+    <div class="certificate-content" id="certificateContent">
+      <p>This certificate represents the completion of the Web Development Basics course, which includes learning HTML, CSS, and basic web design principles.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Atharv Mahesh Korde. All rights reserved.
+  </footer>
+
+  <script>
+    function toggleCertificate() {
+      var content = document.getElementById("certificateContent");
+      if (content.style.display === "none" || content.style.display === "") {
+        content.style.display = "block";
+      } else {
+        content.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>
