@@ -73,6 +73,29 @@
       font-size: 18px;
       text-decoration: underline;
     }
+
+    .contact-buttons {
+      margin-top: 10px;
+    }
+
+    .contact-buttons a button {
+      background-color: #0077b5;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .contact-buttons a button:hover {
+      opacity: 0.9;
+    }
+
+    .email-text {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
@@ -137,9 +160,12 @@
     </ul>
 
     <h2>Contact</h2>
-    <ul>
-      <li>Email: 202401100050@mitaoe.ac.in</li>
-    </ul>
+    <div class="email-text">Email: atharvkorde75175@gmail.com</div>
+    <div class="contact-buttons">
+      <a href="https://www.linkedin.com/in/atharv-korde-8b0124339?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJIuJF0ADRe2b5SAyBo8wLg%3D%3D" target="_blank">
+        <button>Visit my LinkedIn</button>
+      </a>
+    </div>
 
     <h2 class="certificate-title" onclick="toggleCertificate()">Certificate: Web Development Basics</h2>
     <div class="certificate-content" id="certificateContent">
